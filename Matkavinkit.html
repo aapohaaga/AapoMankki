@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matkavinkit</title>
+    <link rel="stylesheet" href="matkavinkit.css">
+    <title>Matkavinkit | Ski Escape</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">Ski Escape</div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="nav-menu">
+        <a href="index.html">Etusivu</a>
+        <a href="Opilaskemaan.html">Opi laskemaan</a>
+        <a href="Blogipostaukset.html">Blogipostaukset</a>
+        <a href="Matkavinkit.html">Matkavinkit</a>
+    </nav>
+</header>
+
+<h1>Suositut laskettelukohteet</h1>
+<p>Löydä Suomen parhaat laskettelukohteet ja inspiroidu seuraavaan talviseen seikkailuun.</p>
+
+<div class="gallery">
+
+    <a href="https://www.levi.fi" target="_blank" class="card">
+        <img src="kuvat/levi.png" alt="Levi">
+        <div class="card-title">Levi</div>
+    </a>
+
+    <a href="https://www.ruka.fi" target="_blank" class="card">
+        <img src="kuvat/ruka.png" alt="Ruka">
+        <div class="card-title">Ruka</div>
+    </a>
+
+    <a href="https://www.yllas.fi" target="_blank" class="card">
+        <img src="kuvat/yllas.png" alt="Ylläs">
+        <div class="card-title">Ylläs</div>
+    </a>
+
+</div>
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("active");
+    document.querySelector(".hamburger").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogipostauksete</title>
+    <link rel="stylesheet" href="blogi.css">
+</head>
+<body>
+    
+
+<header>
+    <div class="logo">Ski Escape</div>
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <nav id="nav-menu">
+        <a href="index.html">Etusivu</a>
+        <a href="Opilaskemaan.html">Opi laskemaan</a>
+        <a href="Blogipostaukset.html">Blogipostaukset</a>
+        <a href="Matkavinkit.html">Matkavinkit</a>
+    </nav>
+</header>
+
+<h1>Seuraa lasketteluaiheisia Instagram-tilejä</h1>
+
+<div class="gallery">
+
+    <a href="https://www.instagram.com/forre4life/" target="_blank" class="card">
+        <img src="kuvat/forre.png" alt="forre4life">
+        <div class="card-title">@forre4life</div>
+    </a>
+
+    <a href="https://www.instagram.com/renerinnekangas/" target="_blank" class="card">
+        <img src="kuvat/rene.png" alt="renerinnekangas'">
+        <div class="card-title">@renerinnekangas</div>
+    </a>
+
+    <a href="https://www.instagram.com/kuurakoivisto/" target="_blank" class="card">
+        <img src="kuvat/kuura.png" alt="kuurakoivisto">
+        <div class="card-title">@kuurakoivisto</div>
+    </a>
+
+    <a href="https://www.instagram.com/hankielamary/" target="_blank" class="card">
+        <img src="kuvat/hanki.png" alt="hankielamary">
+        <div class="card-title">@hankielämäry</div>
+    </a>
+
+    <a href="https://www.instagram.com/redbullsnow/" target="_blank" class="card">
+        <img src="kuvat/rb.png" alt="redbullsnow">
+        <div class="card-title">@redbullsnow</div>
+    </a>
+
+    <a href="https://www.instagram.com/eeroettala/" target="_blank" class="card">
+        <img src="kuvat/eero.png" alt="eeroettala">
+        <div class="card-title">@eeroettala</div>
+    </a>
+
+</div>
+
+<script>
+function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("active");
+    document.querySelector(".hamburger").classList.toggle("active");
+}
+</script>
+
+</body>
+</html>
