@@ -81,8 +81,6 @@
     transition:0.3s;
 }
 
-/* Animation to X */
-
 .hamburger.active span:nth-child(1){
     transform: rotate(45deg) translate(5px,5px);
 }
@@ -94,8 +92,6 @@
 .hamburger.active span:nth-child(3){
     transform: rotate(-45deg) translate(6px,-6px);
 }
-
-/* MOBILE VIEW */
 
 @media (max-width:768px){
 
@@ -121,5 +117,6 @@
     nav.active{
         display:flex;
     }
+
 
 }
