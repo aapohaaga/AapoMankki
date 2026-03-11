@@ -148,7 +148,7 @@ footer {
 
 .footer-links a:hover,
 .footer-social a:hover {
-    color: #ffcc00; /* highlight color on hover */
+    color: #ffcc00; 
 }
 
 footer p {
@@ -164,4 +164,5 @@ footer p {
     .grid {
         grid-template-columns: 1fr;
     }
+
 }
